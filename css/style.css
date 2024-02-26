@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo&display=swap');
+body{
+    font-family: 'Chivo';
+    margin: auto;
+    box-sizing: border-box;
+    background-color: rgba(249, 235, 218, 0.751);
+}
+.logodiv, #ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 55px 0px 55px;
+}
+.navbar{
+    transition: 0.3s ease-in-out;
+}
+.logo{
+    width: 9%;
+}
+span{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+.fa-user{
+    padding-right: 20px;
+}
+li a{
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: monospace;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding: 5px 70px 10px 70px;
+    border-bottom: 1px solid black;
+}
+
+
+.image-one{
+    width: 50%;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.container-one{
+    position: relative;
+    padding-bottom: 25px;
+}
+.bg-container{
+    display: flex;
+    position: relative;
+    height: 740px;
+
+} 
+
+.content-one{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 125px;
+    box-sizing: border-box;
+  }
+.sub-container{
+    text-align: center;
+    border: 0; 
+     padding: 4rem 3rem; 
+     position: relative; 
+     background-color: rgba(89, 107, 43, 0.73);
+    color: rgba(252, 250, 248);
+
+}
+.sub-container h2{
+    font-size: 35px;
+    line-height: 1.5;
+    margin: 0;
+}
+.sub-container h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: .1em;
+}
+.btn-one{
+    width: 60%;
+    padding: 15px;
+    color: rgba(89, 107, 43);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    background: rgb(242, 233, 223);
+    text-transform: uppercase;
+}
+.icons{
+    position: fixed;
+    top: 50%;
+    width: 5rem;
+    transform: translateY(-30%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#iconUl{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin-inline-start: -1.2rem;
+        padding: 0;
+}
+.iconList a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+.specialList a{
+    color:white;
+    writing-mode: tb-rl;
+    font-size: 13px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    transform: rotate(-180deg);
+}
+@keyframes scroll {
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 4));
+    }
+}
+
+.container-two{
+    background-color: black;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.slide{
+    animation: scroll 20s linear infinite ;
+    animation-play-state: running;
+    white-space: nowrap;
+    display: -webkit-box;
+}
+.content-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-two h3{
+    color: rgb(248, 243, 233);
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0px 20px 0px ;
+    
+}
