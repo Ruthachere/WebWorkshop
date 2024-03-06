@@ -2,6 +2,7 @@
 body{
     font-family: 'Chivo';
     margin: auto;
+    min-height: 100%;
     box-sizing: border-box;
     background-color: rgba(249, 235, 218, 0.751);
 }
@@ -149,9 +150,9 @@ li{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-.slide{
+.slide, .slides{
     animation: scroll 20s linear infinite ;
     animation-play-state: running;
     white-space: nowrap;
@@ -169,4 +170,175 @@ li{
     font-weight: 400;
     padding: 0px 20px 0px ;
     
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 30px;
+}
+.images{
+    position: relative;
+    height: 100%;
+    padding: 20px;
+    
+}
+.image-two{
+    display: block;
+    width: 35%;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+.image-three{
+   border-radius: 10px;
+   width: 30%;
+    position: absolute;
+    top: 12%;
+    left: 60%;
+    object-fit: cover;
+}
+
+.image-four{
+   border-radius: 10px;
+    width: 40%;
+    position: absolute;
+    top: 26%;
+    left: 33%;
+    object-fit: cover;
+}
+
+.image-five{
+    width: 22%;
+    border-radius: 10px;
+    position: absolute;
+    right: 60%;
+    top: 63%;
+    object-fit: cover;
+}
+
+.grid-item-two{
+    padding: 40px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: center;
+
+}
+.grid-item-two h2{
+    font-family: inherit;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 400;
+    word-wrap: break-word;
+    
+}
+.grid-item-two p{
+    font-size: 20px;
+    font-family: inherit;
+    letter-spacing: 0.05rem;
+    word-wrap: break-word;
+}
+.btn-two{
+    width: 40%;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(251, 249, 230);
+    background: rgb(192, 4, 4);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.06rem;
+    margin-top: 30px;
+}
+
+.logo-images{
+    width: 120px;
+    height: 90px;
+   
+margin: 20px;
+}
+.sliders{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container-four h1{
+    display: flex;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 35px;
+    font-weight: 400;
+}
+.grid-container-two{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 30px;
+    padding: 10px 50px 0px 50px;
+}
+.grid-images{
+    width: 100%;
+    height: 80%;
+    border: 2px solid black;
+}
+.container-five p a{
+    color: black;
+    text-decoration: none;
+}
+.container-five p{
+    text-align: center;
+    font-size: 17px;
+}
+.container-five a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.container-five small{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    letter-spacing: 0.2rem;
+    font-weight: 550;
+}
+.container-five h1{
+    font-size: 35px;
+    font-family: inherit;
+    font-weight: bold;
+    padding-left: 50px;
+}
+.btn-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-btn{
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: inherit;
+    font-weight: bold;
+    color: rgb(247, 242, 234);
+    background-color: rgba(182, 3, 3, 0.982);
+    border-radius: 10px;
+    border: 2px solid rgba(182, 3, 3, 0.982);
+    margin-top: 10px;
+}
+b{
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+em{
+    font-size: 13px;
+}
+.grid-one span{
+ font-size: 13px;
+ display: flex;
+ align-items: end;
 }
