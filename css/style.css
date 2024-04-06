@@ -342,3 +342,270 @@ em{
  display: flex;
  align-items: end;
 }
+.container-six{
+    padding: 40px 0;
+}
+.container-six h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: inherit;
+    letter-spacing: 1.3px;
+    font-weight: 450;
+
+}
+.contentOne{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 82%;
+}
+.contentOne p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: inherit;
+
+}
+.contentOne i{
+    padding-bottom: 15px;
+    font-size: 22px;
+
+}
+.containerOne{
+    width: 90%;
+    margin: auto;
+}
+.containerOne h1{
+    font-size: 41px;
+    font-family: inherit;
+    font-weight: 500;
+    text-align: center;
+}
+.para-one{
+    padding-top: 30px;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+.para-one p{
+    font-size: 20.5px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.para-one strong{
+    font-size: 20px;
+}
+.para-one .learnbtn{
+    width: 40%;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: bold;
+    color: rgb(247, 242, 234);
+    background-color: rgba(182, 3, 3, 0.982);
+    border-radius: 10px;
+    border: 2px solid rgba(182, 3, 3, 0.982);
+    margin-top: 30px;
+    
+}
+.imageOne{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    
+}
+.containerTwo{
+    height: 720px;
+    padding: 40px 0;
+}
+.grid-container-three{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 720px;
+
+}
+.grid-item3{
+    height: 720px;
+}
+.grid-container-three .grid{
+    background-color: rgb(89, 107, 43);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+.grid ul{
+    display: block;
+    padding: 25px;
+}
+.grid li a{
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: rgba(254, 233, 207, 0.44);
+}
+.grid li{
+    padding: 6px 0px;
+}
+.grid li a:hover{
+    color: antiquewhite;
+}
+.grid p{
+    padding: 50px 30px;
+    color: antiquewhite;
+    font-family: inherit;
+    font-size: 16px;
+}
+.shopBtn{
+    margin-left: 30px;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-size: 15px;
+    font-family: 'Chivo';
+
+}
+.imageTwo{
+    width: 100%;
+    height: 720px;
+    object-fit: cover;
+}
+.grid-container-four{
+    padding: 20px 50px 20px 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 35px;
+}
+.grid-img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.contentTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.contentTwo h3{
+    font-family: inherit;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.7rem;
+    font-weight: 500;
+}
+.contentTwo p{
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.756);
+    text-align: left;
+    line-height: 1.7rem;
+    letter-spacing: 0.004rem;
+}
+.contentTwo small{
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(70, 70, 70);
+    text-align: left;
+}
+.contentTwo a{
+    text-decoration: none;
+    color: black;
+}
+.container-seven{
+    position: static;
+}
+.image-seven{
+    height: 750px;
+    width: 100%;
+    object-fit: cover;
+}
+.content-hikeclub{
+    background-color: rgba(171, 58, 13, 0.36);
+    height: 750px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0px 50px;
+    position: absolute;
+}
+.content-hikeclub h1{
+    color: white;
+    font-size: 40px;
+    font-family: inherit;
+    letter-spacing: 0.2rem;
+    margin: 0;
+}
+.content-hikeclub h5{
+    color: white;
+    font-size: 20px;
+    font-family: inherit;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+}
+.content-hikeclub .btn-one{
+    color: rgba(171, 58, 13);
+}
+.container-final{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 20px;
+    border-bottom: 1px solid rgba(120, 118, 118, 0.858);
+}
+.content-form ul{
+ display: flex;
+ justify-content: space-evenly;
+ padding: 20px 50px 10px 0px;
+}
+.content-nav ul{
+    display: block;
+}
+.content-nav li a{
+    letter-spacing: 0px;
+    font-size: 17px;
+    font-family: inherit;
+    padding: 30px 0;
+}
+.content-nav ul li{
+    padding: 8px 0px;
+}
+.content-form #email{
+    background: none;
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.content-form{
+    font-size: 15px;
+    color: rgb(82, 81, 81);
+}
+.content-form h6{
+    font-size: 16px;
+    color: rgb(82, 81, 81);
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.content-nav h6{
+    margin: 0;
+    text-align: center;
+    padding-right: 14px;
+    font-size: 15px;
+    color: rgb(82, 81, 81);
+    font-weight: 300;
+}
+.content-grounded{
+    color: rgba(73, 71, 71, 0.754);
+    font-size: 15px;
+    padding: 10px 50px;
+    text-align: start;
+}
